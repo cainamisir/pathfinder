@@ -1,0 +1,56 @@
+.cell {
+    display: inline-block;
+    width: 29px;
+    background-color: #fff1e6;
+    height: 29px;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+}
+.cell:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+}
+
+.not-set {
+    background-color: #e5e5e5;
+}
+.start {
+    background-color: #06d6a0;
+}
+.end {
+    background-color: #f72585;
+}
+.wall {
+    background-color: #240046;
+}
+.visited {
+    background-color: #ffd166;
+    animation-name: visited-cell;
+    animation-duration: 1s;
+}
+.shortest-path {
+    background-color: purple;
+    animation: shortest-path 0.9s infinite;
+}
+@keyframes visited-cell {
+    from {
+    }
+    25% {
+        background-color: #f77f00;
+    }
+    to {
+        background-color: #ffd166;
+    }
+}
+@keyframes shortest-path {
+    from {
+    }
+    25% {
+        background-color: purple;
+    }
+    to {
+        background-color: #f72585;
+    }
+}

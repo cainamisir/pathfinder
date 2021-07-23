@@ -1,0 +1,40 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.title {
+    color: White;
+}
+.cell-wrapper {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.play-button {
+    span {
+        font-family: "Poppins", sans-serif;
+    }
+    margin-top: 2em !important;
+    background-color: #f72585 !important;
+    color: white !important;
+}
+.grid {
+    -webkit-box-shadow: 0px 0px 36px 0px rgba(255, 255, 255, 0.3) !important;
+    -moz-box-shadow: 0px 0px 36px 0px rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0px 0px 36px 0px rgba(255, 255, 255, 0.3) !important;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+}
+.selection-tabs {
+    background-color: #240046;
+    width: 600px;
+    span {
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+}
